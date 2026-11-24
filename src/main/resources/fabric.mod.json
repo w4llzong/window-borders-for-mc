@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "windowborders",
+  "version": "${version}",
+  "name": "Window Borders",
+  "description": "Keeps the game window's title bar/borders so you can drag it around, and lets you send it to another monitor.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["xyz.windowborders.WindowBordersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
